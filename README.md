@@ -22,14 +22,14 @@ YouTube Clone is a React-based web application that mimics YouTube's interface, 
 2.**Install Dependencies**:
 npm install
 
-3.Install Tailwind CSS:
-npm install -D tailwindcss
-npx tailwindcss init
+3.**Install Tailwind CSS**:
+-npm install -D tailwindcss
+-npx tailwindcss init
 
-4.Start the Application:
-npm start
+4.**Start the Application**:
+-npm start
 
-Usage
+## Usage
 Homepage: Browse a list of video cards fetched from the YouTube API.
 Sidebar: Navigate using the buttons provided in the sidebar.
 Search Bar: Type in the search bar to get dynamic suggestions and search results.
@@ -37,7 +37,7 @@ Live Chat: Participate in live chat by writing and viewing messages.
 Comments: View comments on videos.
 
 
-Dependencies
+## Dependencies
 React: Frontend library.
 Redux: State management.
 YouTube API: Fetch video data.
@@ -51,7 +51,7 @@ License
 
 This project is licensed under the MIT License.
 
-Acknowledgments
+## Acknowledgments
 
 YouTube Data API v3 for the video data.
 Redux for state management.
