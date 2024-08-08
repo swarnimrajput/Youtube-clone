@@ -23,11 +23,11 @@ YouTube Clone is a React-based web application that mimics YouTube's interface, 
 npm install
 
 3.**Install Tailwind CSS**:
--npm install -D tailwindcss
--npx tailwindcss init
+npm install -D tailwindcss
+npx tailwindcss init
 
 4.**Start the Application**:
--npm start
+npm start
 
 ## Usage
 Homepage: Browse a list of video cards fetched from the YouTube API.
