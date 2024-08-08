@@ -19,7 +19,7 @@ YouTube Clone is a React-based web application that mimics YouTube's interface, 
    git clone https://github.com/yourusername/youtube-clone.git
    cd youtube-clone
 
-2.Install Dependencies:
+2.**Install Dependencies**:
 npm install
 
 3.Install Tailwind CSS:
