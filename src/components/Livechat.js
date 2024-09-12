@@ -22,13 +22,14 @@ const Livechat = () => {
     },[])
   return (
     <>
-  <div className=" w-full h-[600px] ml-2 p-2 border border-black bg-slate-100 rounded-lg overflow-y-scroll flex flex-col-reverse">
+  <div className=" w-full h-[600px] ml-2 p-2 border border-black bg-slate-100 rounded-lg overflow-y-scroll flex">
     <div>
     {chatMessage.map(c=><ChatMessage name={c.name} message={c.message}/>)}
     </div> 
    </div>
    <form className="w-full p-2 ml-2 border border-black" onSubmit={(e)=>{
         e.preventDefault();
+        
 
     
     dispatch(addMessage({
